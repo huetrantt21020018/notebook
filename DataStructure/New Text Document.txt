@@ -1,0 +1,6 @@
+hàm find của IT
+IT động : https://vn.spoj.com/problems/FOCUS/
+president IT : https://vn.spoj.com/problems/VQUERY/ 
+IT 2D : https://sites.google.com/site/kc97ble/container/segment-tree-2d
+ktra số ngto : https://vn.spoj.com/problems/PAGAIN/
+bignum : https://vn.spoj.com/problems/BIGNUM/

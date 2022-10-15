@@ -1,0 +1,4 @@
+([])
+kiểm tra  = stack
++ ngoặc mở -> đẩy vào stack
++ ngoặc đóng -> so khớp với top của stack

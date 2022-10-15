@@ -1,0 +1,13 @@
+//bitmask
+chia để trị
+chữ số
+trên cây
+//thứ tự từ điển
+
+bao lồi
+đổi nhãn
+
+alien trick (?)
+knuth optimization
+Open close trick
+slope trick (?)

@@ -1,0 +1,9 @@
+Dinic
+Cặp ghép
+
+Luồng mincost
+Cặp ghép có trọng số
+
+Định lý hall : Xét đồ thị 2 phía (A, B)
+Gọi a là tập con của A, -> b là các đỉnh thuộc B đến đc từ a
+Khi đó nếu toàn bộ A đc ghép cặp thì |a| <= |b| với mọi a

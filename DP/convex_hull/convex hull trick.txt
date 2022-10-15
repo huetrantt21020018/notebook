@@ -1,0 +1,40 @@
+﻿Convex hull trick training
+
+Bài 1:
+https://codeforces.com/contest/319/problem/C
+CHT cơ bản O(n + q)
+
+Bài 2:
+https://codeforces.com/contest/631/problem/E
+CHT nhưng không cái line không được add theo thứ tự tăng dần của a.
+Kết hợp thêm BIT/IT, mỗi nút lưu 1 convexhull.
+p/s : cách của sol dễ hơn
+
+Bài 3:
+https://www.codechef.com/JULY18A/problems/PDELIV
+Tương tự bài trên, luyện tập sau, không chữa trên lớp.
+
+Bonus 1 bài sẽ nói qua trên lớp:
+Cho q truy vấn (1e5)
+	1 : thêm line (a,b).
+	2: xoá line (a,b)
+	3: max a * x + b với mọi line trong tập
+
+Bài 4:
+https://codeforces.com/contest/932/problem/F
+Line không được add theo thứ tự tăng của a, và phải vừa thêm line, vừa trả lời truy vấn.
+-> Dynamic convex hull.
+Cách 1: 
+	https://github.com/kth-competitive-programming/kactl/blob/master/content/data-structures/LineContainer.h
+	sử dụng set để maintain convexhull. Tự đọc thêm ở https://codeforces.com/blog/entry/63823.
+	-> dpt ((n+q)logn).
+Cách 2:
+	sử dụng logn cái hull. hull thứ i lưu 2 ^ i lines.
+	như vậy nếu trúng ta cần lưu tổng cộng n lines, thì ta nếu n có ith bit thì hull thứ i có 2 ^ i lines, còn không hull thứ i thì rỗng.
+	khi thêm 1 lines vào, ta thêm vào bit đầu tiên có số 0, gộp tất cả các hull trước số 0 đó vào.
+	ví dụ : 111110011 -> 000001011
+	sau đó ta build lại convexhull vừa mới được sinh ra.
+	tại vì chỉ có logn hull, rõ ràng 1 lines chỉ có thể được chuyển logn lần.
+	truy vấn thì ta sẽ chặt nhị phân trên tất cả logn convexhull này.
+	dpt ((n + q) logn * logn). có thể là (nlogn + qlognlogn) nếu sử dụng merge sort để gộp.
+

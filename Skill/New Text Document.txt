@@ -1,0 +1,7 @@
+2 con trỏ
+nhân ma trận
+random
+rrh
+sweep line
+tknp, tktp, local search
+bignum

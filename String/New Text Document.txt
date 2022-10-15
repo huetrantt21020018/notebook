@@ -1,0 +1,6 @@
+hash
+kmp
+trie
+
+aho corasick
+suffix array

@@ -1,0 +1,10 @@
+DSU (rollback)
+chu trình - euler, hamiton
+DFS/BFS 
+đường đi ngắn nhất : dij, floyd
+centroid  
+LCA 
+LTM, SLT, BCT
+2sat
+Cây đồng dạng (học)
+Xây cây mới gồm các đỉnh quan trọng
